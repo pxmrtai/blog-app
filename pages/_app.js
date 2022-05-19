@@ -1,7 +1,15 @@
+import Layout from '../components/layout'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <Layout>
+      <div className='mainContainer'>
+        <div className='itemContainer'>
 
-export default MyApp
+        <Component {...pageProps} />
+        </div>
+      </div>
+    </Layout>
+  )
+}

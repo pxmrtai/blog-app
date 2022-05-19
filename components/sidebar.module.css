@@ -1,0 +1,37 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: #11181f;
+}
+.container {
+    height: 100%;
+    display: flex;
+    width: 80%;
+    background-color: #11181f;
+    padding: 32px 0px;
+    gap: 20px;
+  }
+  
+  .container > a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #93a4b6;
+  }
+  
+  .container > a:hover {
+    background-color: #eaeaea;
+  }
+  
+  .input {
+    margin: 32px 0;
+    text-decoration: none;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    font-size: 14px;
+    padding: 8px 16px;
+    height: 28px;
+  }
